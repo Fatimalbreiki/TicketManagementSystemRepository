@@ -1,0 +1,789 @@
+{
+  "VersionKey": "00000000-0000-0000-0000-000000000000",
+  "OldProcessCode": null,
+  "IsNewVersion": false,
+  "VersionNumber": 1,
+  "VersionNote": null,
+  "States": [
+    {
+      "StateTypeId": 1,
+      "Name": "Submit ticket",
+      "Description": null,
+      "IsDynamic": null,
+      "EnableAllActionRoundRobin": null,
+      "DynamicRequestKey": null,
+      "DynamicSourceTypeId": 0,
+      "DynamicLogicFlowCode": null,
+      "DynamicProcessParam": null,
+      "DynamicSubProperty": null,
+      "EnableDynamicMajority": null,
+      "DynamicTargetTypeId": 0,
+      "DynamicDefaultAction": null,
+      "IsSequential": false,
+      "SequenceFinalActions": [],
+      "HasPreviousAction": false,
+      "SequenceNextActionName": null,
+      "SequencePreviousActionName": null,
+      "LogicFlowInputMappings": [],
+      "DynamicActionRules": [],
+      "Transitions": [
+        {
+          "CurrentStateId": "023f61b3-bece-43d0-aaf2-ad7e65cf9bc3",
+          "NextStateId": "7ea7e38f-57a0-4f46-8871-c1770034c797",
+          "CurrentStateCode": "StartState_SUBMIT_TICKET",
+          "NextStateCode": "State_VIEW_TICKET",
+          "TransitionConditionPaths": [],
+          "Activities": [],
+          "Actions": [
+            {
+              "ActionTypeId": 1,
+              "Name": "submitted ticket",
+              "Description": "",
+              "IsAuto": true,
+              "IsMulti": false,
+              "IsDynamic": false,
+              "Order": 0,
+              "AutoCondition": {
+                "dataTypeId": 6,
+                "EditorType": 2,
+                "Value": "true"
+              },
+              "ActivationCondition": {
+                "dataTypeId": 6,
+                "EditorType": 2,
+                "Value": "true"
+              },
+              "EscalationProcessList": [],
+              "Targets": [],
+              "MetaData": {},
+              "Id": "a91a356c-f7e3-4e02-a726-66f4caf6c895",
+              "Code": "AutoAction_SUBMITTED_TICKET"
+            }
+          ],
+          "MetaData": {},
+          "Id": "6e4aed89-c7e8-4568-b52b-80217a45a2e7",
+          "Code": "2cf18aa0-8923-45fd-ba0d-c035b9ace1b8",
+          "Name": ""
+        }
+      ],
+      "Activities": [],
+      "Targets": [
+        {
+          "Id": 1,
+          "TargetType": 1,
+          "RefId": "Customers",
+          "Name": "Customers",
+          "ProviderId": "d9e4841f-0d7a-4e05-9aa0-22fc88b5910c"
+        }
+      ],
+      "DynamicSourceTargetTypeId": 0,
+      "MetaData": {},
+      "Id": "023f61b3-bece-43d0-aaf2-ad7e65cf9bc3",
+      "Code": "StartState_SUBMIT_TICKET"
+    },
+    {
+      "StateTypeId": 2,
+      "Name": "View Ticket",
+      "Description": null,
+      "IsDynamic": null,
+      "EnableAllActionRoundRobin": null,
+      "DynamicRequestKey": null,
+      "DynamicSourceTypeId": 0,
+      "DynamicLogicFlowCode": null,
+      "DynamicProcessParam": null,
+      "DynamicSubProperty": null,
+      "EnableDynamicMajority": null,
+      "DynamicTargetTypeId": 0,
+      "DynamicDefaultAction": null,
+      "IsSequential": false,
+      "SequenceFinalActions": [],
+      "HasPreviousAction": false,
+      "SequenceNextActionName": null,
+      "SequencePreviousActionName": null,
+      "LogicFlowInputMappings": [],
+      "DynamicActionRules": [],
+      "Transitions": [],
+      "Activities": [],
+      "Targets": [
+        {
+          "Id": 1,
+          "TargetType": 1,
+          "RefId": "Customers",
+          "Name": "Customers",
+          "ProviderId": "d9e4841f-0d7a-4e05-9aa0-22fc88b5910c"
+        }
+      ],
+      "DynamicSourceTargetTypeId": 0,
+      "MetaData": {},
+      "Id": "7ea7e38f-57a0-4f46-8871-c1770034c797",
+      "Code": "State_VIEW_TICKET"
+    },
+    {
+      "StateTypeId": 2,
+      "Name": "Assign tickets",
+      "Description": null,
+      "IsDynamic": null,
+      "EnableAllActionRoundRobin": null,
+      "DynamicRequestKey": null,
+      "DynamicSourceTypeId": 0,
+      "DynamicLogicFlowCode": null,
+      "DynamicProcessParam": null,
+      "DynamicSubProperty": null,
+      "EnableDynamicMajority": null,
+      "DynamicTargetTypeId": 0,
+      "DynamicDefaultAction": null,
+      "IsSequential": false,
+      "SequenceFinalActions": [],
+      "HasPreviousAction": false,
+      "SequenceNextActionName": null,
+      "SequencePreviousActionName": null,
+      "LogicFlowInputMappings": [],
+      "DynamicActionRules": [],
+      "Transitions": [
+        {
+          "CurrentStateId": "8a05b288-a772-4a58-81d5-bc54786bf519",
+          "NextStateId": "7ea7e38f-57a0-4f46-8871-c1770034c797",
+          "CurrentStateCode": "State_ASSIGN_TICKETS",
+          "NextStateCode": "State_VIEW_TICKET",
+          "TransitionConditionPaths": [],
+          "Activities": [],
+          "Actions": [
+            {
+              "ActionTypeId": 1,
+              "Name": "Assigned ticket",
+              "Description": "",
+              "IsAuto": false,
+              "IsMulti": false,
+              "IsDynamic": false,
+              "Order": 0,
+              "AutoCondition": {
+                "dataTypeId": 6,
+                "EditorType": 2,
+                "Value": "true"
+              },
+              "ActivationCondition": {
+                "dataTypeId": 6,
+                "EditorType": 2,
+                "Value": "true"
+              },
+              "EscalationProcessList": [],
+              "Targets": [],
+              "MetaData": {},
+              "Id": "f565e2cf-0981-4bbd-b16e-d5a59e07868a",
+              "Code": "UserAction_ASSIGNED_TICKET"
+            }
+          ],
+          "MetaData": {},
+          "Id": "a98eb336-1ab7-4637-aaaa-0f9c4db2f376",
+          "Code": "913db31e-2d87-438d-8290-6e0335bfd4bb",
+          "Name": ""
+        }
+      ],
+      "Activities": [],
+      "Targets": [
+        {
+          "Id": 1,
+          "TargetType": 1,
+          "RefId": "Admins",
+          "Name": "Admins",
+          "ProviderId": "d9e4841f-0d7a-4e05-9aa0-22fc88b5910c"
+        }
+      ],
+      "DynamicSourceTargetTypeId": 0,
+      "MetaData": {},
+      "Id": "8a05b288-a772-4a58-81d5-bc54786bf519",
+      "Code": "State_ASSIGN_TICKETS"
+    },
+    {
+      "StateTypeId": 2,
+      "Name": "Handle assigned tickets.",
+      "Description": null,
+      "IsDynamic": null,
+      "EnableAllActionRoundRobin": null,
+      "DynamicRequestKey": null,
+      "DynamicSourceTypeId": 0,
+      "DynamicLogicFlowCode": null,
+      "DynamicProcessParam": null,
+      "DynamicSubProperty": null,
+      "EnableDynamicMajority": null,
+      "DynamicTargetTypeId": 0,
+      "DynamicDefaultAction": null,
+      "IsSequential": false,
+      "SequenceFinalActions": [],
+      "HasPreviousAction": false,
+      "SequenceNextActionName": null,
+      "SequencePreviousActionName": null,
+      "LogicFlowInputMappings": [],
+      "DynamicActionRules": [],
+      "Transitions": [
+        {
+          "CurrentStateId": "97f9a246-aa2c-4669-a430-cdbddbe8e385",
+          "NextStateId": "8a05b288-a772-4a58-81d5-bc54786bf519",
+          "CurrentStateCode": "State_HANDLE_ASSIGNED_TICKETS.",
+          "NextStateCode": "State_ASSIGN_TICKETS",
+          "TransitionConditionPaths": [],
+          "Activities": [],
+          "Actions": [
+            {
+              "ActionTypeId": 1,
+              "Name": "Handled tickets",
+              "Description": "",
+              "IsAuto": false,
+              "IsMulti": false,
+              "IsDynamic": false,
+              "Order": 0,
+              "AutoCondition": {
+                "dataTypeId": 6,
+                "EditorType": 2,
+                "Value": "true"
+              },
+              "ActivationCondition": {
+                "dataTypeId": 6,
+                "EditorType": 2,
+                "Value": "true"
+              },
+              "EscalationProcessList": [],
+              "Targets": [],
+              "MetaData": {},
+              "Id": "b5010916-68db-48b9-a493-01ffbc269af2",
+              "Code": "UserAction_HANDLED_TICKETS"
+            }
+          ],
+          "MetaData": {},
+          "Id": "7fbcf16f-8fec-49a8-a286-dc8c04aa8c00",
+          "Code": "d93815d0-e3cc-4ba0-bfa7-80c6c5cb1794",
+          "Name": ""
+        }
+      ],
+      "Activities": [],
+      "Targets": [
+        {
+          "Id": 1,
+          "TargetType": 1,
+          "RefId": "SupportAgents",
+          "Name": "SupportAgents",
+          "ProviderId": "d9e4841f-0d7a-4e05-9aa0-22fc88b5910c"
+        }
+      ],
+      "DynamicSourceTargetTypeId": 0,
+      "MetaData": {},
+      "Id": "97f9a246-aa2c-4669-a430-cdbddbe8e385",
+      "Code": "State_HANDLE_ASSIGNED_TICKETS."
+    },
+    {
+      "StateTypeId": 2,
+      "Name": "Update ticket statuses",
+      "Description": null,
+      "IsDynamic": null,
+      "EnableAllActionRoundRobin": null,
+      "DynamicRequestKey": null,
+      "DynamicSourceTypeId": 0,
+      "DynamicLogicFlowCode": null,
+      "DynamicProcessParam": null,
+      "DynamicSubProperty": null,
+      "EnableDynamicMajority": null,
+      "DynamicTargetTypeId": 0,
+      "DynamicDefaultAction": null,
+      "IsSequential": false,
+      "SequenceFinalActions": [],
+      "HasPreviousAction": false,
+      "SequenceNextActionName": null,
+      "SequencePreviousActionName": null,
+      "LogicFlowInputMappings": [],
+      "DynamicActionRules": [],
+      "Transitions": [
+        {
+          "CurrentStateId": "3b793bab-63a9-4f4a-bc8a-f5f38a990779",
+          "NextStateId": "97f9a246-aa2c-4669-a430-cdbddbe8e385",
+          "CurrentStateCode": "State_UPDATE_TICKET_STATUSES",
+          "NextStateCode": "State_HANDLE_ASSIGNED_TICKETS.",
+          "TransitionConditionPaths": [],
+          "Activities": [],
+          "Actions": [
+            {
+              "ActionTypeId": 1,
+              "Name": "Updated ticket status",
+              "Description": "",
+              "IsAuto": false,
+              "IsMulti": false,
+              "IsDynamic": false,
+              "Order": 0,
+              "AutoCondition": {
+                "dataTypeId": 6,
+                "EditorType": 2,
+                "Value": "true"
+              },
+              "ActivationCondition": {
+                "dataTypeId": 6,
+                "EditorType": 2,
+                "Value": "true"
+              },
+              "EscalationProcessList": [],
+              "Targets": [],
+              "MetaData": {},
+              "Id": "4c27f201-4b22-4234-8e07-404b21bbaa0b",
+              "Code": "UserAction_UPDATED_TICKET_STATUS"
+            }
+          ],
+          "MetaData": {},
+          "Id": "32a5ae96-4737-4ca0-8415-020f3063fb1f",
+          "Code": "fa39cac4-44ff-4999-afdc-d8105f6f4345",
+          "Name": ""
+        },
+        {
+          "CurrentStateId": "3b793bab-63a9-4f4a-bc8a-f5f38a990779",
+          "NextStateId": "ea76d93b-4f79-4ddd-b28d-fc43f5017665",
+          "CurrentStateCode": "State_UPDATE_TICKET_STATUSES",
+          "NextStateCode": "EndState_GENERATE_REPORT",
+          "TransitionConditionPaths": [],
+          "Activities": [],
+          "Actions": [
+            {
+              "ActionTypeId": 1,
+              "Name": "generated report",
+              "Description": "",
+              "IsAuto": false,
+              "IsMulti": false,
+              "IsDynamic": false,
+              "Order": 0,
+              "AutoCondition": {
+                "dataTypeId": 6,
+                "EditorType": 2,
+                "Value": "true"
+              },
+              "ActivationCondition": {
+                "dataTypeId": 6,
+                "EditorType": 2,
+                "Value": "true"
+              },
+              "EscalationProcessList": [],
+              "Targets": [],
+              "MetaData": {},
+              "Id": "23e27afe-c898-4dfe-9070-e4992969ec9b",
+              "Code": "UserAction_GENERATED_REPORT"
+            }
+          ],
+          "MetaData": {},
+          "Id": "f105ce9c-0bca-4e3a-add0-7226b10543ce",
+          "Code": "05e1508d-4f47-4bba-94c2-f429adaf6231",
+          "Name": ""
+        }
+      ],
+      "Activities": [],
+      "Targets": [],
+      "DynamicSourceTargetTypeId": 0,
+      "MetaData": {},
+      "Id": "3b793bab-63a9-4f4a-bc8a-f5f38a990779",
+      "Code": "State_UPDATE_TICKET_STATUSES"
+    },
+    {
+      "StateTypeId": 3,
+      "Name": "Generate report",
+      "Description": null,
+      "IsDynamic": null,
+      "EnableAllActionRoundRobin": null,
+      "DynamicRequestKey": null,
+      "DynamicSourceTypeId": 0,
+      "DynamicLogicFlowCode": null,
+      "DynamicProcessParam": null,
+      "DynamicSubProperty": null,
+      "EnableDynamicMajority": null,
+      "DynamicTargetTypeId": 0,
+      "DynamicDefaultAction": null,
+      "IsSequential": false,
+      "SequenceFinalActions": [],
+      "HasPreviousAction": false,
+      "SequenceNextActionName": null,
+      "SequencePreviousActionName": null,
+      "LogicFlowInputMappings": [],
+      "DynamicActionRules": [],
+      "Transitions": [],
+      "Activities": [],
+      "Targets": [],
+      "DynamicSourceTargetTypeId": 0,
+      "MetaData": {},
+      "Id": "ea76d93b-4f79-4ddd-b28d-fc43f5017665",
+      "Code": "EndState_GENERATE_REPORT"
+    }
+  ],
+  "Conditions": [],
+  "NodePositions": [
+    {
+      "XPosition": "300",
+      "YPosition": "100",
+      "RefId": "a2b3a2af-f84c-4135-846c-256b19dafe36",
+      "NodeTypeId": 8
+    },
+    {
+      "XPosition": "250",
+      "YPosition": "180",
+      "RefId": "023f61b3-bece-43d0-aaf2-ad7e65cf9bc3",
+      "NodeTypeId": 1
+    },
+    {
+      "XPosition": "250",
+      "YPosition": "300",
+      "RefId": "7ea7e38f-57a0-4f46-8871-c1770034c797",
+      "NodeTypeId": 1
+    },
+    {
+      "XPosition": "260",
+      "YPosition": "420",
+      "RefId": "8a05b288-a772-4a58-81d5-bc54786bf519",
+      "NodeTypeId": 1
+    },
+    {
+      "XPosition": "230",
+      "YPosition": "570",
+      "RefId": "97f9a246-aa2c-4669-a430-cdbddbe8e385",
+      "NodeTypeId": 1
+    },
+    {
+      "XPosition": "230",
+      "YPosition": "680",
+      "RefId": "3b793bab-63a9-4f4a-bc8a-f5f38a990779",
+      "NodeTypeId": 1
+    },
+    {
+      "XPosition": "310",
+      "YPosition": "830",
+      "RefId": "ea76d93b-4f79-4ddd-b28d-fc43f5017665",
+      "NodeTypeId": 9
+    }
+  ],
+  "ProcessDatas": [],
+  "Events": [],
+  "Activities": [],
+  "SubmissionTargets": [],
+  "GraphTransitions": [
+    {
+      "PathId": "69ec8fe6-4d95-470f-923f-d28aa9a73627",
+      "TransitionId": null,
+      "TargetId": "023f61b3-bece-43d0-aaf2-ad7e65cf9bc3",
+      "SourceId": "a2b3a2af-f84c-4135-846c-256b19dafe36",
+      "TargetType": "state",
+      "SourceType": "start",
+      "Label": "",
+      "Action": null,
+      "ConditionPath": null,
+      "StepDesign": {
+        "styleObject": {
+          "fontFamily": "nunito-sans, sans-serif",
+          "overflow": "auto",
+          "fontSize": 9,
+          "whiteSpace": "wrap",
+          "rounded": true,
+          "isAutoSized": false,
+          "shape": "connector",
+          "perimeter": "rectanglePerimeter",
+          "edgeStyle": "orthogonalEdgeStyle",
+          "endArrow": "block",
+          "arcSize": 20,
+          "strokeColor": "#000000",
+          "strokeWidth": 2,
+          "labelBackgroundColor": "#fff",
+          "pathType": 1,
+          "wfType": "transition",
+          "transitionType": "startPath",
+          "sourcePort": null,
+          "targetPort": null
+        }
+      }
+    },
+    {
+      "PathId": "798717ee-6ced-4c71-bdba-bf523e12e54d",
+      "TransitionId": "6e4aed89-c7e8-4568-b52b-80217a45a2e7",
+      "TargetId": "7ea7e38f-57a0-4f46-8871-c1770034c797",
+      "SourceId": "023f61b3-bece-43d0-aaf2-ad7e65cf9bc3",
+      "TargetType": "state",
+      "SourceType": "state",
+      "Label": "submitted ticket",
+      "Action": {
+        "ActionTypeId": 1,
+        "Name": "submitted ticket",
+        "Description": "",
+        "IsAuto": true,
+        "IsMulti": false,
+        "IsDynamic": false,
+        "Order": 0,
+        "AutoCondition": {
+          "dataTypeId": 6,
+          "EditorType": 2,
+          "Value": "true"
+        },
+        "ActivationCondition": {
+          "dataTypeId": 6,
+          "EditorType": 2,
+          "Value": "true"
+        },
+        "EscalationProcessList": [],
+        "Targets": [],
+        "MetaData": {},
+        "Id": "a91a356c-f7e3-4e02-a726-66f4caf6c895",
+        "Code": "AutoAction_SUBMITTED_TICKET"
+      },
+      "ConditionPath": null,
+      "StepDesign": {
+        "styleObject": {
+          "fontFamily": "nunito-sans, sans-serif",
+          "overflow": "auto",
+          "fontSize": 9,
+          "whiteSpace": "wrap",
+          "rounded": true,
+          "isAutoSized": false,
+          "shape": "connector",
+          "perimeter": "rectanglePerimeter",
+          "edgeStyle": "orthogonalEdgeStyle",
+          "endArrow": "block",
+          "arcSize": 20,
+          "strokeColor": "#40de21",
+          "strokeWidth": 2,
+          "labelBackgroundColor": "#fff",
+          "pathType": 1,
+          "wfType": "transition",
+          "transitionType": "autoAction",
+          "sourcePort": null,
+          "targetPort": null
+        }
+      }
+    },
+    {
+      "PathId": "435c35a4-06b9-4dc0-b355-8bb21cd85a42",
+      "TransitionId": "a98eb336-1ab7-4637-aaaa-0f9c4db2f376",
+      "TargetId": "7ea7e38f-57a0-4f46-8871-c1770034c797",
+      "SourceId": "8a05b288-a772-4a58-81d5-bc54786bf519",
+      "TargetType": "state",
+      "SourceType": "state",
+      "Label": "Assigned ticket",
+      "Action": {
+        "ActionTypeId": 1,
+        "Name": "Assigned ticket",
+        "Description": "",
+        "IsAuto": false,
+        "IsMulti": false,
+        "IsDynamic": false,
+        "Order": 0,
+        "AutoCondition": {
+          "dataTypeId": 6,
+          "EditorType": 2,
+          "Value": "true"
+        },
+        "ActivationCondition": {
+          "dataTypeId": 6,
+          "EditorType": 2,
+          "Value": "true"
+        },
+        "EscalationProcessList": [],
+        "Targets": [],
+        "MetaData": {},
+        "Id": "f565e2cf-0981-4bbd-b16e-d5a59e07868a",
+        "Code": "UserAction_ASSIGNED_TICKET"
+      },
+      "ConditionPath": null,
+      "StepDesign": {
+        "styleObject": {
+          "fontFamily": "nunito-sans, sans-serif",
+          "overflow": "auto",
+          "fontSize": 9,
+          "whiteSpace": "wrap",
+          "rounded": true,
+          "isAutoSized": false,
+          "shape": "connector",
+          "perimeter": "rectanglePerimeter",
+          "edgeStyle": "orthogonalEdgeStyle",
+          "endArrow": "block",
+          "arcSize": 20,
+          "strokeColor": "#205b13",
+          "strokeWidth": 2,
+          "labelBackgroundColor": "#fff",
+          "pathType": 1,
+          "wfType": "transition",
+          "transitionType": "userAction",
+          "sourcePort": null,
+          "targetPort": null
+        }
+      }
+    },
+    {
+      "PathId": "e713ca26-580c-4f8f-a7bd-f59ee0bb433a",
+      "TransitionId": "7fbcf16f-8fec-49a8-a286-dc8c04aa8c00",
+      "TargetId": "8a05b288-a772-4a58-81d5-bc54786bf519",
+      "SourceId": "97f9a246-aa2c-4669-a430-cdbddbe8e385",
+      "TargetType": "state",
+      "SourceType": "state",
+      "Label": "Handled tickets",
+      "Action": {
+        "ActionTypeId": 1,
+        "Name": "Handled tickets",
+        "Description": "",
+        "IsAuto": false,
+        "IsMulti": false,
+        "IsDynamic": false,
+        "Order": 0,
+        "AutoCondition": {
+          "dataTypeId": 6,
+          "EditorType": 2,
+          "Value": "true"
+        },
+        "ActivationCondition": {
+          "dataTypeId": 6,
+          "EditorType": 2,
+          "Value": "true"
+        },
+        "EscalationProcessList": [],
+        "Targets": [],
+        "MetaData": {},
+        "Id": "b5010916-68db-48b9-a493-01ffbc269af2",
+        "Code": "UserAction_HANDLED_TICKETS"
+      },
+      "ConditionPath": null,
+      "StepDesign": {
+        "styleObject": {
+          "fontFamily": "nunito-sans, sans-serif",
+          "overflow": "auto",
+          "fontSize": 9,
+          "whiteSpace": "wrap",
+          "rounded": true,
+          "isAutoSized": false,
+          "shape": "connector",
+          "perimeter": "rectanglePerimeter",
+          "edgeStyle": "orthogonalEdgeStyle",
+          "endArrow": "block",
+          "arcSize": 20,
+          "strokeColor": "#205b13",
+          "strokeWidth": 2,
+          "labelBackgroundColor": "#fff",
+          "pathType": 1,
+          "wfType": "transition",
+          "transitionType": "userAction",
+          "sourcePort": null,
+          "targetPort": null
+        }
+      }
+    },
+    {
+      "PathId": "a786695c-6cf5-4b54-b876-88c01b1d1d95",
+      "TransitionId": "32a5ae96-4737-4ca0-8415-020f3063fb1f",
+      "TargetId": "97f9a246-aa2c-4669-a430-cdbddbe8e385",
+      "SourceId": "3b793bab-63a9-4f4a-bc8a-f5f38a990779",
+      "TargetType": "state",
+      "SourceType": "state",
+      "Label": "Updated ticket status",
+      "Action": {
+        "ActionTypeId": 1,
+        "Name": "Updated ticket status",
+        "Description": "",
+        "IsAuto": false,
+        "IsMulti": false,
+        "IsDynamic": false,
+        "Order": 0,
+        "AutoCondition": {
+          "dataTypeId": 6,
+          "EditorType": 2,
+          "Value": "true"
+        },
+        "ActivationCondition": {
+          "dataTypeId": 6,
+          "EditorType": 2,
+          "Value": "true"
+        },
+        "EscalationProcessList": [],
+        "Targets": [],
+        "MetaData": {},
+        "Id": "4c27f201-4b22-4234-8e07-404b21bbaa0b",
+        "Code": "UserAction_UPDATED_TICKET_STATUS"
+      },
+      "ConditionPath": null,
+      "StepDesign": {
+        "styleObject": {
+          "fontFamily": "nunito-sans, sans-serif",
+          "overflow": "auto",
+          "fontSize": 9,
+          "whiteSpace": "wrap",
+          "rounded": true,
+          "isAutoSized": false,
+          "shape": "connector",
+          "perimeter": "rectanglePerimeter",
+          "edgeStyle": "orthogonalEdgeStyle",
+          "endArrow": "block",
+          "arcSize": 20,
+          "strokeColor": "#205b13",
+          "strokeWidth": 2,
+          "labelBackgroundColor": "#fff",
+          "pathType": 1,
+          "wfType": "transition",
+          "transitionType": "userAction",
+          "sourcePort": null,
+          "targetPort": null
+        }
+      }
+    },
+    {
+      "PathId": "672236e0-7d0a-4fe0-93a1-9de4e6cf2717",
+      "TransitionId": "f105ce9c-0bca-4e3a-add0-7226b10543ce",
+      "TargetId": "ea76d93b-4f79-4ddd-b28d-fc43f5017665",
+      "SourceId": "3b793bab-63a9-4f4a-bc8a-f5f38a990779",
+      "TargetType": "state",
+      "SourceType": "state",
+      "Label": "generated report",
+      "Action": {
+        "ActionTypeId": 1,
+        "Name": "generated report",
+        "Description": "",
+        "IsAuto": false,
+        "IsMulti": false,
+        "IsDynamic": false,
+        "Order": 0,
+        "AutoCondition": {
+          "dataTypeId": 6,
+          "EditorType": 2,
+          "Value": "true"
+        },
+        "ActivationCondition": {
+          "dataTypeId": 6,
+          "EditorType": 2,
+          "Value": "true"
+        },
+        "EscalationProcessList": [],
+        "Targets": [],
+        "MetaData": {},
+        "Id": "23e27afe-c898-4dfe-9070-e4992969ec9b",
+        "Code": "UserAction_GENERATED_REPORT"
+      },
+      "ConditionPath": null,
+      "StepDesign": {
+        "styleObject": {
+          "fontFamily": "nunito-sans, sans-serif",
+          "overflow": "auto",
+          "fontSize": 9,
+          "whiteSpace": "wrap",
+          "rounded": true,
+          "isAutoSized": false,
+          "shape": "connector",
+          "perimeter": "rectanglePerimeter",
+          "edgeStyle": "orthogonalEdgeStyle",
+          "endArrow": "block",
+          "arcSize": 20,
+          "strokeColor": "#205b13",
+          "strokeWidth": 2,
+          "labelBackgroundColor": "#fff",
+          "pathType": 1,
+          "wfType": "transition",
+          "transitionType": "userAction",
+          "sourcePort": null,
+          "targetPort": null
+        }
+      }
+    }
+  ],
+  "CreatedBy": 41,
+  "CreationDate": "2025-01-23T17:53:42.602785Z",
+  "ModifiedBy": 41,
+  "ModificationDate": "2025-01-23T18:07:23.2115703Z",
+  "DeletedBy": null,
+  "DeletionDate": null,
+  "MetaData": {},
+  "Id": "e5738195-daa6-41e1-96c5-4551a4eef576",
+  "Code": "Process_SYSTEMWORKFLOWPROCESS",
+  "Name": "SystemWorkflowProcess"
+}

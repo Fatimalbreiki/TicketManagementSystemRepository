@@ -1,0 +1,316 @@
+{
+  "ProcessId": "e5738195-daa6-41e1-96c5-4551a4eef576",
+  "ProcessCode": "Process_SYSTEMWORKFLOWPROCESS",
+  "Description": null,
+  "RefPattern": {
+    "dataTypeId": 6,
+    "EditorType": 2,
+    "Value": "VR-year-seq"
+  },
+  "AppKey": "1deffa42-db25-4fe8-991d-0acff461ed6a",
+  "EnableSendNotification": null,
+  "TaskPageId": null,
+  "EnableAutoSave": true,
+  "ShowActions": null,
+  "AutoSavePeriod": 1.0,
+  "EnableComplexPattern": null,
+  "PatternConfiguration": {
+    "ResetEveryMiddle": null,
+    "ResetEveryPrefix": null,
+    "ResetEverySuffix": null,
+    "Prefix": null,
+    "Middle": null,
+    "Suffix": null,
+    "Separator": null
+  },
+  "HideTaskDetails": null,
+  "EnableCloneAppRequest": null,
+  "UniqueSubmissionErrorMessage": null,
+  "AppDomainConfigList": [],
+  "AppDataMappingList": [],
+  "AppActionList": [
+    {
+      "ActionId": "00000000-0000-0000-0000-000000000000",
+      "ActionCode": "AutoAction_SUBMITTED_TICKET",
+      "EnableValidator": true,
+      "ExecludeFromHistory": null,
+      "ExcludeFromHistory": null,
+      "AllowAddNote": true,
+      "NoteCondition": {
+        "dataTypeId": 6,
+        "EditorType": 2,
+        "Value": "false"
+      },
+      "NoteValidationMessage": "fieldIsRequired",
+      "HideAction": null,
+      "Order": 0,
+      "SettingsJson": null
+    },
+    {
+      "ActionId": "00000000-0000-0000-0000-000000000000",
+      "ActionCode": "UserAction_ASSIGNED_TICKET",
+      "EnableValidator": true,
+      "ExecludeFromHistory": null,
+      "ExcludeFromHistory": null,
+      "AllowAddNote": true,
+      "NoteCondition": {
+        "dataTypeId": 6,
+        "EditorType": 2,
+        "Value": "false"
+      },
+      "NoteValidationMessage": "fieldIsRequired",
+      "HideAction": null,
+      "Order": 0,
+      "SettingsJson": null
+    },
+    {
+      "ActionId": "00000000-0000-0000-0000-000000000000",
+      "ActionCode": "UserAction_HANDLED_TICKETS",
+      "EnableValidator": true,
+      "ExecludeFromHistory": null,
+      "ExcludeFromHistory": null,
+      "AllowAddNote": true,
+      "NoteCondition": {
+        "dataTypeId": 6,
+        "EditorType": 2,
+        "Value": "false"
+      },
+      "NoteValidationMessage": "fieldIsRequired",
+      "HideAction": null,
+      "Order": 0,
+      "SettingsJson": null
+    },
+    {
+      "ActionId": "00000000-0000-0000-0000-000000000000",
+      "ActionCode": "UserAction_UPDATED_TICKET_STATUS",
+      "EnableValidator": true,
+      "ExecludeFromHistory": null,
+      "ExcludeFromHistory": null,
+      "AllowAddNote": true,
+      "NoteCondition": {
+        "dataTypeId": 6,
+        "EditorType": 2,
+        "Value": "false"
+      },
+      "NoteValidationMessage": "fieldIsRequired",
+      "HideAction": null,
+      "Order": 0,
+      "SettingsJson": null
+    },
+    {
+      "ActionId": "00000000-0000-0000-0000-000000000000",
+      "ActionCode": "UserAction_GENERATED_REPORT",
+      "EnableValidator": true,
+      "ExecludeFromHistory": null,
+      "ExcludeFromHistory": null,
+      "AllowAddNote": true,
+      "NoteCondition": {
+        "dataTypeId": 6,
+        "EditorType": 2,
+        "Value": "false"
+      },
+      "NoteValidationMessage": "fieldIsRequired",
+      "HideAction": null,
+      "Order": 0,
+      "SettingsJson": null
+    },
+    {
+      "ActionId": "00000000-0000-0000-0000-000000000000",
+      "ActionCode": "UserAction_USER_ACTION_7",
+      "EnableValidator": true,
+      "ExecludeFromHistory": null,
+      "ExcludeFromHistory": null,
+      "AllowAddNote": true,
+      "NoteCondition": {
+        "dataTypeId": 6,
+        "EditorType": 2,
+        "Value": "false"
+      },
+      "NoteValidationMessage": "fieldIsRequired",
+      "HideAction": null,
+      "Order": 0,
+      "SettingsJson": null
+    },
+    {
+      "ActionId": "00000000-0000-0000-0000-000000000000",
+      "ActionCode": "AutoAction_GENERATED_REPORT",
+      "EnableValidator": true,
+      "ExecludeFromHistory": null,
+      "ExcludeFromHistory": null,
+      "AllowAddNote": true,
+      "NoteCondition": {
+        "dataTypeId": 6,
+        "EditorType": 2,
+        "Value": "false"
+      },
+      "NoteValidationMessage": "fieldIsRequired",
+      "HideAction": null,
+      "Order": 0,
+      "SettingsJson": null
+    }
+  ],
+  "AppStateList": [
+    {
+      "StateCode": "StartState_SUBMIT_TICKET",
+      "StateName": null,
+      "EnableSaveForm": true,
+      "ShowNoteAlert": false,
+      "AllowUndoRequest": false
+    },
+    {
+      "StateCode": "State_VIEW_TICKET",
+      "StateName": null,
+      "EnableSaveForm": false,
+      "ShowNoteAlert": false,
+      "AllowUndoRequest": false
+    },
+    {
+      "StateCode": "State_ASSIGN_TICKETS",
+      "StateName": null,
+      "EnableSaveForm": true,
+      "ShowNoteAlert": false,
+      "AllowUndoRequest": false
+    },
+    {
+      "StateCode": "State_HANDLE_ASSIGNED_TICKETS.",
+      "StateName": null,
+      "EnableSaveForm": true,
+      "ShowNoteAlert": false,
+      "AllowUndoRequest": false
+    },
+    {
+      "StateCode": "State_UPDATE_TICKET_STATUSES",
+      "StateName": null,
+      "EnableSaveForm": true,
+      "ShowNoteAlert": false,
+      "AllowUndoRequest": false
+    },
+    {
+      "StateCode": "EndState_GENERATE_REPORT",
+      "StateName": null,
+      "EnableSaveForm": false,
+      "ShowNoteAlert": false,
+      "AllowUndoRequest": false
+    },
+    {
+      "StateCode": "State_GENERATE_ANALYTICS_REPORTS",
+      "StateName": null,
+      "EnableSaveForm": false,
+      "ShowNoteAlert": false,
+      "AllowUndoRequest": false
+    }
+  ],
+  "AppFormList": [
+    {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "ActionId": "00000000-0000-0000-0000-000000000000",
+      "StateId": "00000000-0000-0000-0000-000000000000",
+      "FormId": "cb522fbd-9582-4d57-ba2c-9fa31eb0ff5c",
+      "Order": 0,
+      "IsDefault": true,
+      "ShowInViewRequest": false,
+      "EnableView": false,
+      "DisplayForm": 0
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "ActionId": "00000000-0000-0000-0000-000000000000",
+      "StateId": "00000000-0000-0000-0000-000000000000",
+      "FormId": "cb522fbd-9582-4d57-ba2c-9fa31eb0ff5c",
+      "Order": 1,
+      "IsDefault": false,
+      "ShowInViewRequest": true,
+      "EnableView": true,
+      "DisplayForm": 0
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "ActionId": "00000000-0000-0000-0000-000000000000",
+      "StateId": "023f61b3-bece-43d0-aaf2-ad7e65cf9bc3",
+      "FormId": "cb522fbd-9582-4d57-ba2c-9fa31eb0ff5c",
+      "Order": 0,
+      "IsDefault": false,
+      "ShowInViewRequest": false,
+      "EnableView": false,
+      "DisplayForm": 0
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "ActionId": "00000000-0000-0000-0000-000000000000",
+      "StateId": "7ea7e38f-57a0-4f46-8871-c1770034c797",
+      "FormId": "cb522fbd-9582-4d57-ba2c-9fa31eb0ff5c",
+      "Order": 0,
+      "IsDefault": false,
+      "ShowInViewRequest": false,
+      "EnableView": true,
+      "DisplayForm": 0
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "ActionId": "00000000-0000-0000-0000-000000000000",
+      "StateId": "8a05b288-a772-4a58-81d5-bc54786bf519",
+      "FormId": "cb522fbd-9582-4d57-ba2c-9fa31eb0ff5c",
+      "Order": 0,
+      "IsDefault": false,
+      "ShowInViewRequest": false,
+      "EnableView": false,
+      "DisplayForm": 0
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "ActionId": "00000000-0000-0000-0000-000000000000",
+      "StateId": "97f9a246-aa2c-4669-a430-cdbddbe8e385",
+      "FormId": "cb522fbd-9582-4d57-ba2c-9fa31eb0ff5c",
+      "Order": 0,
+      "IsDefault": false,
+      "ShowInViewRequest": false,
+      "EnableView": false,
+      "DisplayForm": 0
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "ActionId": "00000000-0000-0000-0000-000000000000",
+      "StateId": "3b793bab-63a9-4f4a-bc8a-f5f38a990779",
+      "FormId": "cb522fbd-9582-4d57-ba2c-9fa31eb0ff5c",
+      "Order": 0,
+      "IsDefault": false,
+      "ShowInViewRequest": false,
+      "EnableView": false,
+      "DisplayForm": 0
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "ActionId": "00000000-0000-0000-0000-000000000000",
+      "StateId": "ea76d93b-4f79-4ddd-b28d-fc43f5017665",
+      "FormId": "cb522fbd-9582-4d57-ba2c-9fa31eb0ff5c",
+      "Order": 0,
+      "IsDefault": false,
+      "ShowInViewRequest": false,
+      "EnableView": false,
+      "DisplayForm": 0
+    },
+    {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "ActionId": "00000000-0000-0000-0000-000000000000",
+      "StateId": "bd7453b5-a618-4abe-9ebe-d0174ad8ef55",
+      "FormId": "cb522fbd-9582-4d57-ba2c-9fa31eb0ff5c",
+      "Order": 0,
+      "IsDefault": false,
+      "ShowInViewRequest": false,
+      "EnableView": false,
+      "DisplayForm": 0
+    }
+  ],
+  "StateLabelList": null,
+  "AppStateLabelList": [],
+  "CreatedBy": 41,
+  "CreationDate": "2025-01-23T16:40:45.1514416Z",
+  "ModifiedBy": 41,
+  "ModificationDate": "2025-01-23T18:10:18.3241457Z",
+  "DeletedBy": null,
+  "DeletionDate": null,
+  "MetaData": {},
+  "Id": "2762d200-866d-4b0b-8029-3874683749e8",
+  "Code": "App_ADMINWORKFLOW",
+  "Name": "SystemWorkflow"
+}

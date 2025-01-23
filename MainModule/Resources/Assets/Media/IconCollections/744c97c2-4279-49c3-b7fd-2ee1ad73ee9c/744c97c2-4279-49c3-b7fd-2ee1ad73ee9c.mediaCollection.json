@@ -1,0 +1,80 @@
+{
+  "Name": "TMSIcons",
+  "Code": null,
+  "Attachments": null,
+  "Files": [
+    {
+      "Id": "bf8cbb33-af69-4344-afc7-e920fa37b855",
+      "Name": "ProgressBar.jpg",
+      "File": null
+    },
+    {
+      "Id": "30a31af0-700d-4659-90e1-ea28ae701a63",
+      "Name": "User2.jpg",
+      "File": null
+    },
+    {
+      "Id": "25a39f84-0d48-4244-9e1d-a543897f2e2b",
+      "Name": "Team.jpg",
+      "File": null
+    },
+    {
+      "Id": "a7b8219b-800b-44b2-be3f-1a1c8725cef7",
+      "Name": "Gear(Settings).jpg",
+      "File": null
+    },
+    {
+      "Id": "4355a57a-43bb-469a-8905-5e81459916a5",
+      "Name": "Notification.jpg",
+      "File": null
+    },
+    {
+      "Id": "42451136-e2ae-4ae5-be85-2c9faffd79d0",
+      "Name": "Low.jpg",
+      "File": null
+    },
+    {
+      "Id": "f6193a4d-7147-4ec3-a739-c51227775115",
+      "Name": "Dashboard.jpg",
+      "File": null
+    },
+    {
+      "Id": "585d5a17-4e98-4e94-bcdc-974adb3d5bbd",
+      "Name": "MessageInAir.jpg",
+      "File": null
+    },
+    {
+      "Id": "1b52560b-8548-4e34-b49d-6d632bd2f26b",
+      "Name": "Envelope.jpg",
+      "File": null
+    },
+    {
+      "Id": "c46efcf5-5877-419b-9a37-08f194dd4f2e",
+      "Name": "Message.jpg",
+      "File": null
+    },
+    {
+      "Id": "e2756101-7404-4b9a-98de-8c5cf54f9e6b",
+      "Name": "checklist.jpg",
+      "File": null
+    },
+    {
+      "Id": "415adc1f-edc5-4101-b0bb-e1a1e7318f25",
+      "Name": "Ticket1.jpg",
+      "File": null
+    },
+    {
+      "Id": "a70b2f11-3762-4967-b2d1-2e58f270ce54",
+      "Name": "Ticket.jpg",
+      "File": null
+    }
+  ],
+  "CreatedBy": "41",
+  "CreationDate": "2025-01-14T11:54:05.7710547Z",
+  "ModifiedBy": null,
+  "ModificationDate": null,
+  "DeletedBy": null,
+  "DeletionDate": null,
+  "Id": "744c97c2-4279-49c3-b7fd-2ee1ad73ee9c",
+  "MaestroBlocksEntityState": 0
+}

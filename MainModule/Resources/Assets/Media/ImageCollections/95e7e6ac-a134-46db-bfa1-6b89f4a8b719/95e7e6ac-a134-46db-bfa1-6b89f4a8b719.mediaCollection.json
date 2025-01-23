@@ -1,0 +1,31 @@
+{
+  "Sequence": null,
+  "Name": "TMSImages",
+  "Code": null,
+  "Attachments": null,
+  "Files": [
+    {
+      "Id": "124cd853-56ff-49b0-b3a7-750f6b8e4a83",
+      "Name": "images (2).png",
+      "File": null
+    },
+    {
+      "Id": "524ee0ad-0900-4ea1-b43c-cd10a38b3a1e",
+      "Name": "images (1).png",
+      "File": null
+    },
+    {
+      "Id": "2597ee68-96db-469e-a1a6-ef4d2a340ed0",
+      "Name": "images.png",
+      "File": null
+    }
+  ],
+  "CreatedBy": "41",
+  "CreationDate": "2025-01-14T11:24:52.2716471Z",
+  "ModifiedBy": null,
+  "ModificationDate": null,
+  "DeletedBy": null,
+  "DeletionDate": null,
+  "Id": "95e7e6ac-a134-46db-bfa1-6b89f4a8b719",
+  "MaestroBlocksEntityState": 0
+}

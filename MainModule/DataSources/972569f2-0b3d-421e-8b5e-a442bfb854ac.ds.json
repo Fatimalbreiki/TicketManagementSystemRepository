@@ -1,0 +1,142 @@
+{
+  "TypeId": 4,
+  "IsSystem": false,
+  "IsBuiltIn": false,
+  "Host": "172.16.235.28,25521",
+  "Database": "FatimaAlbreiki_TMS_DB",
+  "Port": 0,
+  "Password": "xXfVMswkobiCpkSn4mkRlAS7IboHZt3nhSlfv/7yrIw=",
+  "UserName": "sa",
+  "PrimaryKeyAttributeType": 2,
+  "EntityHistories": [],
+  "AttributesHistories": [],
+  "SyncHistories": [
+    {
+      "Id": "5942f8a6-e662-4cfb-94b6-8790cf846d24",
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d"
+    },
+    {
+      "Id": "00ec30da-b5b8-4fa4-abf9-5f5700980fe2",
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d"
+    },
+    {
+      "Id": "9cdf526f-06d6-4aa2-bf01-601b898aad7d",
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d"
+    },
+    {
+      "Id": "4070c04a-d3c8-4f12-a85b-dbc9049d1a86",
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d"
+    },
+    {
+      "Id": "d668c7a9-6452-40ec-9de7-c8917ef3b3fb",
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d"
+    },
+    {
+      "Id": "3b18b00e-1403-47a3-9220-17506aeea63b",
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d"
+    },
+    {
+      "Id": "00230cfc-babc-4f4b-986a-63c3f01fcf91",
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d"
+    },
+    {
+      "Id": "f4facebc-4aa5-4bad-86d7-3b4dc38cf126",
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d"
+    },
+    {
+      "Id": "5d8debef-596e-44b1-8b8b-cde1d1583b56",
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d"
+    },
+    {
+      "Id": "7534c7ee-0bf8-4d03-9079-fb256724b9ec",
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d"
+    },
+    {
+      "Id": "72fc3a85-67f2-41bf-8ceb-0d37950f48a8",
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d"
+    },
+    {
+      "Id": "d5377f85-32e7-435a-8236-1d360a9fd5b2",
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d"
+    }
+  ],
+  "AttributeMigrationTypes": [
+    {
+      "Id": "00ec30da-b5b8-4fa4-abf9-5f5700980fe2",
+      "TypeId": 1,
+      "SyncedInMigrationName": "TicketSync6ba1f88d1e034d6e9cb4edd8389fc983",
+      "IsSynced": true
+    },
+    {
+      "Id": "9cdf526f-06d6-4aa2-bf01-601b898aad7d",
+      "TypeId": 1,
+      "SyncedInMigrationName": "TicketSync6ba1f88d1e034d6e9cb4edd8389fc983",
+      "IsSynced": true
+    },
+    {
+      "Id": "4070c04a-d3c8-4f12-a85b-dbc9049d1a86",
+      "TypeId": 8,
+      "SyncedInMigrationName": "TicketSync6ba1f88d1e034d6e9cb4edd8389fc983",
+      "IsSynced": true
+    },
+    {
+      "Id": "d668c7a9-6452-40ec-9de7-c8917ef3b3fb",
+      "TypeId": 73,
+      "SyncedInMigrationName": "TicketSync6ba1f88d1e034d6e9cb4edd8389fc983",
+      "IsSynced": true
+    },
+    {
+      "Id": "00230cfc-babc-4f4b-986a-63c3f01fcf91",
+      "TypeId": 8,
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d",
+      "IsSynced": true
+    },
+    {
+      "Id": "f4facebc-4aa5-4bad-86d7-3b4dc38cf126",
+      "TypeId": 8,
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d",
+      "IsSynced": true
+    },
+    {
+      "Id": "5d8debef-596e-44b1-8b8b-cde1d1583b56",
+      "TypeId": 8,
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d",
+      "IsSynced": true
+    },
+    {
+      "Id": "7534c7ee-0bf8-4d03-9079-fb256724b9ec",
+      "TypeId": 8,
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d",
+      "IsSynced": true
+    },
+    {
+      "Id": "72fc3a85-67f2-41bf-8ceb-0d37950f48a8",
+      "TypeId": 1,
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d",
+      "IsSynced": true
+    },
+    {
+      "Id": "d5377f85-32e7-435a-8236-1d360a9fd5b2",
+      "TypeId": 1,
+      "SyncedInMigrationName": "NewSyncb4ecf98e59a84f9b94158845670c916d",
+      "IsSynced": true
+    }
+  ],
+  "Schemas": [
+    "dbo"
+  ],
+  "MigrationHistroyTableName": null,
+  "MigrationsTableName": "MaestroMigrations_972569f20b3d421e8b5ea442bfb854ac",
+  "HasHistories": true,
+  "IsEncrypted": true,
+  "CreatedBy": 41,
+  "CreationDate": "2025-01-22T11:44:38.8732256Z",
+  "ModifiedBy": 41,
+  "ModificationDate": "2025-01-23T16:06:54.4823736Z",
+  "DeletedBy": null,
+  "DeletionDate": null,
+  "MetaData": {},
+  "Id": "972569f2-0b3d-421e-8b5e-a442bfb854ac",
+  "Code": "",
+  "Name": "FatimaAlbreiki_DomainSource"
+}

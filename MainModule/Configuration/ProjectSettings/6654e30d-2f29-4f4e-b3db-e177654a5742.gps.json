@@ -1,0 +1,22 @@
+{
+  "ProjectName": "TicketManagementSystemProject_FatimaAlbreiki",
+  "DefaultDateFormat": "dd/MM/yyyy",
+  "DefaultTimeFormat": "HH:MM:SS",
+  "DefaultTimezone": "(UTC+03:00) Amman",
+  "DefaultFirstDayOfTheWeek": "Monday",
+  "AttachmentsLocationType": "",
+  "AttachmentsLocationPath": "",
+  "MaestroThemeId": "c78e8b9f-57f6-4349-9c7c-dc43e626e91c",
+  "HomePageId": null,
+  "RuntimeLanguage": "en",
+  "CreatedBy": null,
+  "CreationDate": null,
+  "ModifiedBy": 41,
+  "ModificationDate": "2025-01-14T10:47:25.2578469Z",
+  "DeletedBy": null,
+  "DeletionDate": null,
+  "MetaData": {},
+  "Id": "6654e30d-2f29-4f4e-b3db-e177654a5742",
+  "Code": "",
+  "Name": ""
+}
